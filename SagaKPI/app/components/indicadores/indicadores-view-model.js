@@ -5,12 +5,12 @@ var ViewModel,
 
 ViewModel = new Observable({
 
-    pageTitle: 'HomeView',
+    pageTitle: 'Indicadores',
     // additional properties
 });
 
-// START_CUSTOM_CODE_homeView
+// START_CUSTOM_CODE_indicadores
 // Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
 
-// END_CUSTOM_CODE_homeView
+// END_CUSTOM_CODE_indicadores
 module.exports = ViewModel;
