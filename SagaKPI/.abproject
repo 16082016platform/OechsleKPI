@@ -1,0 +1,28 @@
+{
+  "ProjectName": "SagaKPI",
+  "ProjectGuid": "15b89fd3-143a-4da8-9d17-fe8f19c09e31",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.SagaKPI",
+  "DisplayName": "SagaKPI",
+  "Author": "",
+  "Description": "SagaKPI",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "2.5.0",
+  "Framework": "NativeScript"
+}
