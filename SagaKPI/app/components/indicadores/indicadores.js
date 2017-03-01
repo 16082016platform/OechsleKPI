@@ -21,7 +21,13 @@ function pageLoaded(args) {
 }
 exports.pageLoaded = pageLoaded;
 
-exports.buttonTap = function(args){
+exports.buttonTap = function (args) {
     var chart = args.object;
-    alert(chart.chart);
+    helpers.navigate({
+        moduleName: 'components/indicadores/charts/' + chart.chart,
+        animated: true,
+        transition: {
+            name: "slide"
+        },
+    });
 }
