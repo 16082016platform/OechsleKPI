@@ -23,7 +23,7 @@ function pageLoaded(args) {
             .then(function () {
                 // Drastically increase the size of the logo
                 return args.object.animate({
-                    scale: { x: 6, y: 6 },
+                    scale: { x: 4, y: 4 },
                     duration: 1000,
                     // rotate: 360
                 });
@@ -57,7 +57,6 @@ function pageLoaded(args) {
                     animated: false,
                     clearHistory: true, 
                 });
-                homeView
             });
     });
 

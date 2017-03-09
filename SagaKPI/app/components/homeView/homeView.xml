@@ -6,7 +6,7 @@
     <GridLayout>
         <!-- The parallax background. Give the background a negative margin-top to overlay  -->
 		<!-- the iOS status bar. -->
-		<GridLayout id="backgroundParallax" ios:marginTop="-20" scaleX="1.6" scaleY="1.6"></GridLayout>
+		<Image id="backgroundParallax" ios:marginTop="-20" scaleX="1.6" scaleY="1.6" src='~/images/bg2.jpg' stretch="aspectFill" />
 
 
         <GridLayout id="example-background">
@@ -27,7 +27,7 @@
                         </GridLayout>
                         <StackLayout cssClass="line"/> 
                         <StackLayout orientation="horizontal" tap="onShowPasswordTapped">
-                            <Image src="{{ showPassword ? '~/resources/checkbox_checked.png' : '~/resources/checkbox_unchecked.png' }}" cssClass="checkbox" />
+                            <Image src="{{ showPassword ? '~/images/checkbox_checked.png' : '~/images/checkbox_unchecked.png' }}" cssClass="checkbox" />
                             <Label text="Show password" cssClass="field-switch-title" />
                         </StackLayout>
                         <StackLayout cssClass="line"/>
@@ -68,7 +68,7 @@
                         </GridLayout>
                         <StackLayout cssClass="line"/> 
                         <StackLayout orientation="horizontal" tap="onShowPasswordTapped">
-                            <Image src="{{ showPassword ? '~/resources/checkbox_checked.png' : '~/resources/checkbox_unchecked.png' }}" cssClass="checkbox" />
+                            <Image src="{{ showPassword ? '~/images/checkbox_checked.png' : '~/images/checkbox_unchecked.png' }}" cssClass="checkbox" />
                             <Label text="Show password" cssClass="field-switch-title" />
                         </StackLayout>
                         

@@ -1,7 +1,7 @@
 'use strict';
 var _,
 
-    dataService = require('../../dataProviders/elBuenSabor'),
+    dataService = require('../../dataProviders/backendServices'),
     localSettings = require('application-settings'),
     // additional requires
 

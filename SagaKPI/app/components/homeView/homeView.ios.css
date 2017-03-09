@@ -1,8 +1,3 @@
-/*LOGIN*/
-#backgroundParallax{
-    background-image:url('~/images/bg2.jpg');
-    background-size: cover;
-}
 .profile-picture {
     width: 80;
     height: 80;
@@ -12,9 +7,9 @@
     horizontal-align: center;
     transform: scale(0.8, 0.8);
     animation-name: picture;
-    animation-duration: 0.3;
+    animation-duration: 0.5;
     opacity: 0;
-    animation-delay: 0.7;
+    animation-delay: 1.5;
     animation-fill-mode: forwards;
 }
 
@@ -55,7 +50,7 @@
     transform: scale(0.8, 0.8);
     animation-name: play;
     animation-fill-mode: forwards;
-    animation-duration: 0.6;
+    animation-duration: 1;
 }
 
 .fields-section {
